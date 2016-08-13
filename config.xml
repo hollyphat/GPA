@@ -8,7 +8,7 @@
 <!-- versionCode is optional and Android only -->
 
   <name>GPA Calculator</name>
-
+  <icon src="img/logo.gif"/>
   <description>
       A simple Grade Point Average(GPA) Calculator Application
   </description>
