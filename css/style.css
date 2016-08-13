@@ -1,0 +1,98 @@
+body{
+	background-color: #fafafe;
+}
+
+#splash{
+	display: none;
+	background-color: #39f;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	outline: solid thin #f00;	
+}
+#mysplash{
+	position: fixed;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);	
+}
+
+#splash_copy{
+	position: fixed;
+	bottom: 10px;	
+	width: 100%;
+}
+
+.copy{
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.form textarea{
+    resize: none;
+    border-radius: 0;
+}
+
+#page2{
+	display: none;
+}
+
+.top-nav{
+	/*padding: 2px auto 10px auto;*/
+	text-align: center;
+	text-transform: uppercase;
+	color: #39f;
+	margin-bottom: 10px;
+	font-size: 2em;
+	font-family: Tahoma;
+}
+
+.foot-nav{
+	color: #39f;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.app-container{
+	background-color: #fff;
+	padding: 10px;
+	padding-top: 0;
+	border: #d0d0d0 solid thin;
+	margin: 10px auto;
+}
+
+#show-result{
+	background-color: #F5F5F5;
+	color: #333;
+	font-weight: bold;
+	border: #f9f9f9 solid thin;
+	padding: 10px;
+}
+
+.text1{
+	font-size: 16px;
+	text-align: center;
+}
+
+.text1 span{
+	color: #c65;
+}
+
+.text2{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#result,#show-result{
+	display: none;
+}
