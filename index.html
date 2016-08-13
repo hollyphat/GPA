@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=Edge"/> 	
+	<title>GPA Calculator</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<link rel="shortcut icon" type="text/css" href="img/logo.gif">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<section id="splash">
+		<div id="mysplash">
+			<center>
+				<img src="img/logo.gif" class='img-responsive img-circle' align="center">
+			</center>
+		</div>
+		<div id="splash_copy">
+			<div class="copy">
+				&copy; 2016 - Hollyfat
+			</div>
+		</div>
+	</section>
+
+	<section id="page2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="app-container">
+						<div class="top-nav">
+							GPA Calculator
+						</div>
+						<div id="main-app">
+							<p align="center">
+								Welcome to the Federal Polytechnic Ede, Semester Result Calculator!
+							</p>
+							<div class="panel panel-default">
+								<div class="panel-heading">GPA</div>
+								<div class="panel-body">									
+									<form action="" autocomplete="off" method="post" role="form" id="number-form">
+										<p>
+											Enter the number of courses done during the semester
+										</p>
+										<div class="form-group">
+											<label>Total Course</label>
+											<input type="text" required="" name="total" id="total_course" placeholder="Enter total courses" class="form-control input-sm">
+										</div>
+										<div class="form-group">
+											<input type="submit" name="ok" class="btn btn-sm btn-success" value="Go!">
+											<input type="reset" value="Reset" class="btn btn-sm btn-danger">
+										</div>
+									</form>
+									
+									<form action="" method="post" role="form" id="score-form">
+									</form>
+
+									<div id="result">
+										<div id="loading">
+											<center><img src="img/wait.gif" class="img-responsive"></center>
+										</div>
+										<div id="show-result">
+											<p class="text1">
+												Your GPA is <span id="my_gp"></span>
+											</p>
+											<p class="text2"></p>
+											<center>
+												<button type="button" id="restart" class="btn btn-info">Start Again!</button>
+											</center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="foot-nav">
+							&copy; 2016 - Hollyfat
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="lib/jquery/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/main.min.js"></script>
+	<script type="text/javascript" src="js/units.min.js"></script>
+</body>
+</html>
