@@ -1,0 +1,149 @@
+body{
+	background-color: #fafafe;
+}
+
+#splash{
+	display: none;
+	background-color: #39f;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	outline: solid thin #f00;	
+}
+#mysplash{
+	position: fixed;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);	
+}
+
+#splash_copy{
+	position: fixed;
+	bottom: 10px;	
+	width: 100%;
+}
+
+.copy{
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.form-control{
+    border-radius: 0;
+    background-color: rgba(255,255,255,0.6);
+    border-width: 0;
+    border-bottom: 2px solid #900;
+    color: #333;
+    font-weight: bold;
+}
+
+.form textarea{
+    resize: none;
+    border-radius: 0;
+}
+
+#page2{
+	display: none;
+}
+
+.top-nav{
+	text-align: center;
+	text-transform: uppercase;
+	color: #39f;
+	margin-bottom: 10px;
+	font-size: 2em;
+	font-family: Tahoma;
+}
+
+.foot-nav{
+	color: #39f;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.app-container{	
+	padding: 10px;
+	padding-top: 0;
+	border: #d0d0d0 solid thin;
+	margin: 10px auto;
+}
+
+#show-result{
+	background-color: rgba(200,200,200,0.6);
+	color: #333;
+	font-weight: bold;
+	border: #f9f9f9 solid thin;
+	padding: 10px;
+}
+
+.text1{
+	font-size: 16px;
+	text-align: center;
+}
+
+.text1 span{
+	color: #fff;
+}
+
+.text2{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#result,#show-result{
+	display: none;
+}
+
+.bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+	z-index: -2;
+	background-image: url(../img/bg1.jpg);
+	background-position: center;
+}
+
+.overlay{
+	background-color: rgba(19,20,80,0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+	z-index: -1;
+}
+
+#page2{
+	color: #fff;
+	font-weight: bold;	
+}
+
+.sub-title{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.divider{
+	color: #fff;
+	font-size: 20px;
+	line-height: 1em;
+	margin-bottom: 1.5em;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+
+.divider i{
+	position: relative;
+	top: 0.5em;
+	color: #fff;
+}

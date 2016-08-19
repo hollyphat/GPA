@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=Edge"/> 	
+	<title>GPA Calculator</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<link rel="shortcut icon" type="text/css" href="img/logo.gif">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+
+<body>
+	<section id="splash">
+		<div id="mysplash">
+			<center>
+				<img src="img/logo.gif" class='img-responsive img-circle' align="center">
+			</center>
+		</div>
+		<div id="splash_copy">
+			<div class="copy">
+				&copy; 2016 - Hollyfat
+			</div>
+		</div>
+	</section>
+<div class="bg">
+	&nbsp;
+</div>
+<div class="overlay">&nbsp;</div>
+	<section id="page2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="app-container">
+						<div class="top-nav">
+							GPA Calculator
+						</div>
+						<div id="main-app">
+							<center>
+								<img src="img/logo.gif" class="img-circle">
+							</center>
+							<h3 class="sub-title">Enter Scores</h3>
+							<div class="divider">
+								<i class="fa fa-bookmark"></i>
+							</div>
+							<form action="" method="post" role="form" id="score-form">
+							</form>
+							<div id="result">
+								<div id="loading">
+									<center><img src="img/wait.gif" class="img-responsive"></center>
+								</div>
+								<div id="show-result">
+									<p class="text1">
+										Your Semester Grade Point Average is <span id="my_gp"></span>
+									</p>
+									<p class="text2"></p>
+									<center>
+										<button type="button" id="restart" class="btn btn-info">Start Again!</button>
+									</center>
+								</div>
+							</div>
+						</div>
+						<div class="foot-nav">
+							&copy; 2016 - Hollyfat
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="lib/jquery/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/main.min.js"></script>
+	<script type="text/javascript" src="js/calculate.min.js"></script>
+	<script type="text/javascript" src="js/units.min.js"></script>	
+</body>
+</html>
