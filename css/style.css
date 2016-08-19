@@ -35,6 +35,11 @@ body{
 
 .form-control{
     border-radius: 0;
+    background-color: rgba(255,255,255,0.6);
+    border-width: 0;
+    border-bottom: 2px solid #900;
+    color: #333;
+    font-weight: bold;
 }
 
 .form textarea{
@@ -47,7 +52,6 @@ body{
 }
 
 .top-nav{
-	/*padding: 2px auto 10px auto;*/
 	text-align: center;
 	text-transform: uppercase;
 	color: #39f;
@@ -63,8 +67,7 @@ body{
 	margin-top: 12px;
 }
 
-.app-container{
-	background-color: #fff;
+.app-container{	
 	padding: 10px;
 	padding-top: 0;
 	border: #d0d0d0 solid thin;
@@ -72,7 +75,7 @@ body{
 }
 
 #show-result{
-	background-color: #F5F5F5;
+	background-color: rgba(200,200,200,0.6);
 	color: #333;
 	font-weight: bold;
 	border: #f9f9f9 solid thin;
@@ -85,7 +88,7 @@ body{
 }
 
 .text1 span{
-	color: #c65;
+	color: #fff;
 }
 
 .text2{
@@ -95,4 +98,52 @@ body{
 
 #result,#show-result{
 	display: none;
+}
+
+.bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+	z-index: -2;
+	background-image: url(../img/bg1.jpg);
+	background-position: center;
+}
+
+.overlay{
+	background-color: rgba(19,20,80,0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+	z-index: -1;
+}
+
+#page2{
+	color: #fff;
+	font-weight: bold;	
+}
+
+.sub-title{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.divider{
+	color: #fff;
+	font-size: 20px;
+	line-height: 1em;
+	margin-bottom: 1.5em;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+
+.divider i{
+	position: relative;
+	top: 0.5em;
+	color: #fff;
 }
